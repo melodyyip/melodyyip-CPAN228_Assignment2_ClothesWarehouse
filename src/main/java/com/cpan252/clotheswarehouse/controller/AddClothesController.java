@@ -53,6 +53,6 @@ public class AddClothesController {
         }
         log.info("Processing cloth: {}", cloth);
         clothRepository.save(cloth);
-        return "redirect:/add";
+        return "redirect:/clothlist";
     }
 }
